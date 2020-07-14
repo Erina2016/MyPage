@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+}
+.name {
+    background: linear-gradient(to right, rgb(60, 212, 123), rgb(193, 231, 226) , rgb(60, 212, 123));
+    border: 5px solid aquamarine;
+}
+
+#erina {
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    padding: 35px 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+    color: darkcyan;
+}
+
+.main   {
+    background: linear-gradient(to right, powderblue , rgb(35, 122, 138));
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side {
+    padding: 15px;
+    background: linear-gradient(to right, rgb(233, 208, 212) , rgb(144, 68, 121));
+
+}
+
+.side-two {
+    padding: 15px;
+    background: linear-gradient(to right, rgb(224, 188, 224) , rgb(114, 43, 121));
+
+}
+
+.book-list {
+    padding: 15px;
+    background-color: ;
+    background: linear-gradient(to right, rgb(179, 171, 228) , rgb(52, 37, 100));   
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    padding: 8px 10px;
+    color: rgb(149, 22, 64);
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(73, 18, 52);
+    padding: 10px 0px 15px 5px;
+    text-decoration: underline;
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+}
+
+.web {
+    margin: 5px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.a {
+    padding: 5px;
+}
+
+ol {
+    padding: 14px 15px;
+    color: rgb(149, 22, 64);
+    font-size: 20px;
+}
+
+.table {
+    font-size: 1.2em;  
+    color: rgb(68, 6, 26);
+}
+
+.table-sec {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgb(228, 155, 179) , rgb(189, 25, 60));
+    padding: 14px 15px;
+
+}
+
+.para {
+    background: linear-gradient(to right, rgb(229, 165, 205) , rgb(144, 6, 110));
+    font-size: 1.25em;  
+    color: rgb(68, 6, 26);
+    padding: 14px 15px;
+    font-family: 'Sofia', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 0px 10px;
+    background-color: lightgrey;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#demo {
+    text-align: right;
+    background-color: lightgrey;
+    color: darkmagenta;
+}
+
+#demo1 {
+    text-align: right;
+    background-color: lightgrey;
+    color: darkmagenta;
+}

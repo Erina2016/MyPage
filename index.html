@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="name">
+        <div>
+            <a name="opening"></a>
+        </div>
+        <div id="erina">Erina Haque</div>
+    </div>
+    <div class="main">
+        <div class="info">
+            <h2>Personal Info</h2>
+            <span>Name: Erina Haque</span><br>
+            <span>Country: Bangladesh</span><br>
+            <span>Favorite color: Sky Blue</span><br>
+            <span>Favorite movie: Interstellar</span><br>
+            <span>Hobbies: For hobbies, <a href="hobby.html" target="_blank">click here</a></span><br>
+            <span>Favorite season: Spring</span><br>
+            <span>Favorite food: Chicken</span><br>
+            <span>Favorite Quote: “Every day may not be good... but there’s something good in every day.”</span><br>
+        </div>
+        <div class="pic">
+            <img src="comp.jpg" height="300px" width="520px">
+        </div>
+    </div>
+    <div class="side">
+        <h2 class="">Favorite Websites</h2>
+        <span class="web">
+             My top favorties are: 
+            <a href="https://www.youtube.com/">Youtube</a>, 
+            <a href="https://medium.com/">Medium</a>, 
+            <a href="https://www.instagram.com/">Instagram</a>
+        </span>
+    </div>
+    <div class="side-two">
+        <h2 class="">Most Visited Websites</h2>
+        <span class="web">
+            <a href="https://www.bracu.ac.bd/">Brac University</a>, 
+            <a href="https://www.facebook.com/">Facebook</a>, 
+            <a href="https://piazza.com/brac_university/summer2016/cse391">391 Pizza</a>
+        </span>
+    </div>
+    <div class="book-list">
+        <div class="left">
+            <h2>My Top 10 Novel-List</h2>
+            <ol>
+                <li>A Thousand Splendid Suns</li>
+                <li>The Perks Of Being A Wallflower</li>
+                <li>It Ends With Us</li>
+                <li>The Time Traveler's Wife</li>
+                <li>Gone With The Wind</li>
+                <li>The Fault in Our Stars</li>
+                <li>The Great Gatsby</li>
+                <li>Jane Eyre</li>
+                <li>A Walk To Remember</li>
+                <li>And The Mountains Echoed</li>
+            </ol>
+        </div>
+        <div class="right">
+            <img src="book.jpg" height="350px" width="550px">
+        </div>
+    </div>
+    <div class="para">
+        <div class="lit">
+            <h2>Literature</h2>
+            <p>
+                “We can experience nothing but the present moment, live in no other second of time, 
+                and to understand this is as close as we can get to eternal life.”
+            </p>
+            <p>
+                “We cast a shadow on something wherever we stand, and it is no good moving from place 
+                to place to save things; because the shadow always follows. Choose a place where you won’t
+                do harm - yes, choose a place where you won’t do very much harm, and stand in it for 
+                all you are worth, facing the sunshine.”
+            </p>
+            <p>
+                "We must all face the choice between what is right and what is easy."
+            </p>
+        </div>   
+        <div class="image">
+            <img src="paper.jpg" height="350px" width="550px">
+        </div> 
+    </div>
+    <div class="table-sec">
+        <div class="table">
+            <h2>Top dials table</h2>
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Number</th>
+                    <th>Description(If any)</th>
+                </tr>
+                <tr>
+                    <td>Auneea</td>
+                    <td>Haque</td>
+                    <td>0161234567</td>
+                    <td>In boredom and in need</td>
+                </tr>
+                <tr>
+                    <td>Nusrat</td>
+                    <td>Jahan</td>
+                    <td>0171234561</td>
+                    <td>Short but mandatory calls</td>
+                </tr>
+                <tr>
+                    <td>Zaziba</td>
+                    <td>Taniza</td>
+                    <td>0161211111</td>
+                    <td>Once in a blue moon; <br> to catch up on everything</td>
+                </tr>
+            </table>
+        </div>
+        <div class="images">
+            <img src="phone.jpg" height="200px">
+        </div>
+    </div> 
+    <div class="footer">
+        <a href="#opening">Go to the top</a>
+    </div>
+    <body onload="myFunction()"></body>  
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        function myFunction() {
+        var x = new Date(document.lastModified);
+        document.getElementById("demo").innerHTML = "Last modified Time: " + x;
+        document.getElementById("demo1").innerHTML = 
+        "Page href: " + window.location.href;
+        }
+    </script>
+</body>
+</html>
